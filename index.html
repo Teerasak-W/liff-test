@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
   <title>My LIFF app</title>
   <link rel="stylesheet" href="css/style.css" media="all">
 </head>
+
 <body>
   <p id="os"><b>OS:</b> </p>
   <p id="language"><b>Language:</b> </p>
@@ -36,13 +38,13 @@
   <button id="btnLogOut" onclick="logOut()">Log Out</button>
   <button id="btnClose" onclick="closed()">Close</button>
 
-  <!-- <script src="js/vconsole.min.js"></script> -->
-  <!-- <script>
+  <script src="js/vconsole.min.js"></script>
+  <script>
     var vConsole = new VConsole()
     console.log("Hello World!")
-  </script> -->
+  </script>
 
-  <!-- <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script> -->
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
   <script>
     function createUniversalLink() {
     }
@@ -79,14 +81,15 @@
 
     async function main() {
       alert("LINE Developers x Skooldio")
-      await liff.init({ liffId: "YOUR-LIFF-ID" })
-      // getEnvironment()
-      // getUserProfile()
-      // getContext()
-      // getFriendship()
-      // createUniversalLink()
+      await liff.init({ liffId: "1657756316-DP0eOg1L" })
+      getEnvironment()
+      getUserProfile()
+      getContext()
+      getFriendship()
+      createUniversalLink()
     }
     main()
   </script>
 </body>
+
 </html>
